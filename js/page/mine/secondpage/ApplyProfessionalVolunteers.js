@@ -22,7 +22,8 @@ import IntentionalTime from'./ApplyProfessionalVolunteers/IntentionalTime'
 import PoliticalOutlook from'./ApplyProfessionalVolunteers/PoliticalOutlook'
 import ProfessionalAbility from'./ApplyProfessionalVolunteers/ProfessionalAbility'
 import MyViewUtils from '../utils/MyViewUtils'
-export default class ApplyProfessionalVolunteers extends Component {
+import BaseComponent from '../../../page/BaseComponent';
+export default class ApplyProfessionalVolunteers extends BaseComponent {
     constructor() {
         super();
 

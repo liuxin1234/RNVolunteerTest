@@ -14,8 +14,8 @@ import {
 
 
 import MyViewUtils from '../../utils/MyViewUtils'
-
-export default class SubordinateInstitution extends Component {
+import BaseComponent from '../../../../page/BaseComponent';
+export default class SubordinateInstitution extends BaseComponent {
     constructor() {
         super();
 

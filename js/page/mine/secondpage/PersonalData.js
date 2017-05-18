@@ -23,8 +23,8 @@ import ModifyPassword from './personDataPage/ModifyPassword'
 import Person from './personDataPage/Person'
 import SubordinateInstitution from './personDataPage/SubordinateInstitution'
 
-
-export default class PersonalData extends Component {
+import BaseComponent from '../../../page/BaseComponent';
+export default class PersonalData extends BaseComponent {
     constructor() {
         super();
 

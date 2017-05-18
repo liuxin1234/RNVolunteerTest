@@ -16,7 +16,8 @@ import {
 import NetUtils from './netutil';
 import {Api}from '../page/utils/Api';
 import SearchListPage from'./SearchListPage';
-export default class SearchPage extends Component {
+import BaseComponent from '../page/BaseComponent';
+export default class SearchPage extends BaseComponent {
     constructor(props) {
         super(props);
         this.state = {

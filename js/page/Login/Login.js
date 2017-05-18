@@ -14,13 +14,14 @@ import {
 } from 'react-native';
 import AlertModal from './AlertModal'
 import NetUtils from '../utils/netUtils';
+import BaseComponent from '../../page/BaseComponent';
 var Dimensions = require('Dimensions');
 var {width} = Dimensions.get('window');
 var MD5 = require("crypto-js/md5");
 
 //Api定义变量
 const USERID_LOGIN = "Nbcei.Framework.Api.Impl/v1/user/query";
-export default class Login extends Component {
+export default class Login extends BaseComponent {
     constructor(props){
         super(props);
         this.state = {

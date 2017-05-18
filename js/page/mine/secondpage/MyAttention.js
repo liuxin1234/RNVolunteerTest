@@ -17,6 +17,7 @@ import {
 import ViewUtils from '../../utils/ViewUtils'
 import SearchPage from '../../../common/SearchPage'
 import Storage from 'react-native-storage';
+import BaseComponent from '../../../page/BaseComponent';
 const keyName = 'ActivityJobData';
 
 var storage = new Storage({
@@ -28,7 +29,7 @@ var storage = new Storage({
 
 
 });
-export default class MyAttention extends Component {
+export default class MyAttention extends BaseComponent {
     constructor() {
         super();
         this.dataSource =new ListView.DataSource({rowHasChanged:(r1,r2)=> r1!==r2});

@@ -13,8 +13,8 @@ import {
 } from 'react-native';
 import ViewUtils from '../../utils/ViewUtils'
 import SearchPage from '../../../common/SearchPage'
-
-export default class ApplyProfessionalVolunteers extends Component {
+import BaseComponent from '../../../page/BaseComponent';
+export default class ApplyProfessionalVolunteers extends BaseComponent {
     constructor() {
         super();
 

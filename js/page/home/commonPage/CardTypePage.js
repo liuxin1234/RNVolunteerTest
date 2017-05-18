@@ -15,10 +15,10 @@ import {
 } from 'react-native';
 import CheckBox from 'react-native-check-box';
 import NetUtils from './../../utils/netUtils';
-
+import BaseComponent from '../../../page/BaseComponent';
 const DICTIONARYTYPE_QUERY_DEFAULT = "Nbcei.Framework.Api.Impl/v1/dictionary/query/default/bycode";
 
-export default class CardTypePage extends Component {
+export default class CardTypePage extends BaseComponent {
 
     constructor(props){
         super(props);

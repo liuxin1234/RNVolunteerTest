@@ -15,10 +15,10 @@ import {
 } from 'react-native';
 import CheckBox from 'react-native-check-box';
 import NetUtils from './../../utils/netUtils';
-
+import BaseComponent from '../../../page/BaseComponent';
 const AREA_QUERY = "Nbcei.Framework.Api.Impl/v1/area/query/child";
 
-export default class AreaSelectPage extends Component {
+export default class AreaSelectPage extends BaseComponent {
 
     constructor(props){
         super(props);

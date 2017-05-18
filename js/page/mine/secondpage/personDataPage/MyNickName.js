@@ -14,8 +14,8 @@ import {
 
 
 import MyViewUtils from '../../utils/MyViewUtils'
-
-export default class MyNickName extends Component {
+import BaseComponent from '../../../../page/BaseComponent';
+export default class MyNickName extends BaseComponent {
     constructor() {
         super();
 

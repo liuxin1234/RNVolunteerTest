@@ -26,7 +26,8 @@ var ScreenHeight = Dimensions.get('window').height;
 const COMPANY_QUERY = "Nbcei.Plugin.NbVolunteer.Api.Impl/v1/company/query";
 import ViewUtils from'../../utils/ViewUtils'
 import Search from'../../../common/SearchPage'
-export default class OrganizationPage extends Component {
+import BaseComponent from '../../../page/BaseComponent';
+export default class OrganizationPage extends BaseComponent {
     constructor(props){
         super(props);
         /**第二部**/

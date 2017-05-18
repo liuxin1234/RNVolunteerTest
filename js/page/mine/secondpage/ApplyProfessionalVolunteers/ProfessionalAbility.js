@@ -15,8 +15,8 @@ import {
 
 
 import MyViewUtils from '../../utils/MyViewUtils'
-
-export default class ProfessionalAbility extends Component {
+import BaseComponent from '../../../../page/BaseComponent';
+export default class ProfessionalAbility extends BaseComponent {
     constructor() {
         super();
 

@@ -12,7 +12,8 @@ import {
     Image
 } from 'react-native';
 import ViewUtils from '../../utils/ViewUtils'
-export default class MyRanking extends Component {
+import BaseComponent from '../../../page/BaseComponent';
+export default class MyRanking extends BaseComponent {
     constructor() {
         super();
 

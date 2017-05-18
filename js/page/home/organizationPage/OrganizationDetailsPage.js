@@ -20,7 +20,8 @@ import Search from'../../../common/SearchPage'
 const ScreenWidth = Dimensions.get('window').width;
 import ScrollableTabView, {DefaultTabBar,ScrollableTabBar} from 'react-native-scrollable-tab-view';
 import ViewUtils from'../../utils/ViewUtils'
-export default class OrganizationDetailsPage extends Component {
+import BaseComponent from '../../../page/BaseComponent';
+export default class OrganizationDetailsPage extends BaseComponent {
     constructor(props) {
         super(props);
         /**第二部**/

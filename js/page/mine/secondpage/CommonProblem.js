@@ -13,7 +13,8 @@ import {
 } from 'react-native';
 import ViewUtils from '../../utils/ViewUtils'
 import MyViewUtils from '../utils/MyViewUtils'
-export default class CommonProblem extends Component {
+import BaseComponent from '../../../page/BaseComponent';
+export default class CommonProblem extends BaseComponent {
     constructor() {
         super();
 

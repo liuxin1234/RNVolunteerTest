@@ -17,8 +17,8 @@
 
 
  import MyViewUtils from '../../utils/MyViewUtils'
-
- export default class PoliticalOutlook extends Component {
+ import BaseComponent from '../../../../page/BaseComponent';
+ export default class PoliticalOutlook extends BaseComponent {
      constructor() {
          super();
 

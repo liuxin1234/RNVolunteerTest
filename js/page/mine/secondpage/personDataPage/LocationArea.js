@@ -14,8 +14,8 @@ import {
 
 
 import MyViewUtils from '../../utils/MyViewUtils'
-
-export default class LocationArea extends Component {
+import BaseComponent from '../../../../page/BaseComponent';
+export default class LocationArea extends BaseComponent {
     constructor() {
         super();
 

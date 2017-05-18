@@ -25,7 +25,7 @@ import CheckBoxTest from './commonPage/CheckBoxTest';
 import RadioButtonTest from './commonPage/RadioButtonTest';
 import RadioModalTest from './commonPage/RadioModalTest';
 import CheacListViewTest from './commonPage/CheacListViewTest';
-
+import BaseComponent from '../../page/BaseComponent';
 //发送短信API
 const SEND_PHONE = "Nbcei.Plugin.NbVolunteer.Api.Impl/v1/smsauth/send/register";
 //验证短信API
@@ -33,7 +33,7 @@ const GET_VERYFY = "Nbcei.Plugin.NbVolunteer.Api.Impl/v1/smsauth/valid/register"
 //注册志愿者API
 const VOLUNTEER_CREATE = "Nbcei.Plugin.NbVolunteer.Api.Impl/v1/volunteer/create";
 
-export default class Registermajorvolunteer extends Component {
+export default class Registermajorvolunteer extends BaseComponent {
     constructor(props){
         super(props);
 

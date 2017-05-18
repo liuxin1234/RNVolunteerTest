@@ -15,6 +15,7 @@ import {
     ScrollView,
     AsyncStorage
 } from 'react-native';
+import BaseComponent from '../../../page/BaseComponent';
 var Dimensions = require('Dimensions');
 import ViewUtils from '../../utils/ViewUtils'
 var ScreenWidth = Dimensions.get('window').width;
@@ -27,7 +28,7 @@ var storage = new Storage({
     defaultExpires: 1000 * 3600 * 24,
     enableCache: true,
 });
-export default class JobDetailPage extends Component {
+export default class JobDetailPage extends BaseComponent {
 
     constructor(props){
         super(props);

@@ -16,10 +16,10 @@ import {
 } from 'react-native';
 import CheckBox from 'react-native-check-box';
 import NetUtils from './../../utils/netUtils';
-
+import BaseComponent from '../../../page/BaseComponent';
 const ORGANIZATION_QUERY_CHILD = "Nbcei.Framework.Api.Impl/v1/organization/query/child";
 
-export default class OrgSelectPage extends Component {
+export default class OrgSelectPage extends BaseComponent {
 
     constructor(props){
         super(props);

@@ -14,8 +14,8 @@ import {
 } from 'react-native';
 import ViewUtils from '../../utils/ViewUtils'
 var ScreenWidth = Dimensions.get('window').width;
-
-export default class AboutUs extends Component {
+import BaseComponent from '../../../page/BaseComponent';
+export default class AboutUs extends BaseComponent {
     constructor() {
         super();
 

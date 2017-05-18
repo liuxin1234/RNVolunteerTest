@@ -17,8 +17,8 @@ import {
 
 
 import MyViewUtils from '../../utils/MyViewUtils'
-
-export default class IntentionalType extends Component {
+import BaseComponent from '../../../../page/BaseComponent';
+export default class IntentionalType extends BaseComponent {
     constructor() {
         super();
 

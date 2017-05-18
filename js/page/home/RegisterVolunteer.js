@@ -37,6 +37,7 @@ import AttributePage from './commonPage/AttributePage';
 import AreaSelectPage from './commonPage/AreaSelectPage';
 import OrgSelectPage from './commonPage/OrgSelectPage';
 import NetUtils from './../utils/netUtils';
+import BaseComponent from '../../page/BaseComponent';
 
 //发送短信API
 const SEND_PHONE = "Nbcei.Plugin.NbVolunteer.Api.Impl/v1/smsauth/send/register";
@@ -45,7 +46,7 @@ const GET_VERYFY = "Nbcei.Plugin.NbVolunteer.Api.Impl/v1/smsauth/valid/register"
 //注册志愿者API
 const VOLUNTEER_CREATE = "Nbcei.Plugin.NbVolunteer.Api.Impl/v1/volunteer/create";
 
-export default class RegisterVolunteer extends Component {
+export default class RegisterVolunteer extends BaseComponent {
     constructor(props){
         super(props);
 

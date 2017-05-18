@@ -20,8 +20,8 @@ import {
 import ViewUtil from '../page/utils/ViewUtils'
 import ActivityDetailsPage from '../page/home/activityPage/ActivityDetailsPage';
 import JobDetailsPage from '../page/home/activityPage/JobDetailsPage';
-
-export default class SearchListPage extends Component {
+import BaseComponent from '../page/BaseComponent'
+export default class SearchListPage extends BaseComponent {
 
     constructor() {
         super();
@@ -30,7 +30,6 @@ export default class SearchListPage extends Component {
             data:[]
         }
     }
-
     render() {
         return (
             <View style={styles.container}

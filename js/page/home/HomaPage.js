@@ -138,7 +138,7 @@ export default class HomePage extends Component {
                 {/**活动***/}
                 {ViewUtil.getHomeMiddleView(()=>{this.onClick(Tags.Activity)},require('../../../image/activity.png'),'活动','')}
                 {/**积分商城***/}
-                {ViewUtil.getHomeMiddleView(()=>{this.onClick(Tags.Integral_Mall)},require('../../../image/magnifier.png'),'积分商城','')}
+                {ViewUtil.getHomeMiddleView(()=>{this.onClick(Tags.Integral_Mall)},require('../../../image/shop.png'),'积分商城','')}
             </View>
         </View>)
     }

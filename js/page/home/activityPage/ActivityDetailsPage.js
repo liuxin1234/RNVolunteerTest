@@ -18,7 +18,8 @@ import HTMLView from 'react-native-htmlview';
 import SearchPage from'../../../common/SearchPage';
 import ViewUtils from'../../utils/ViewUtils';
 import Calendar from'../../../common/Calendar'
-export default class ActivityDetailsPage extends Component {
+import BaseComponent from '../../../page/BaseComponent';
+export default class ActivityDetailsPage extends BaseComponent {
     constructor(props){
         super(props)
         this.state = {

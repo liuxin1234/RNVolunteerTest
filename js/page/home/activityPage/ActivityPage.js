@@ -39,8 +39,8 @@ import DropSmartModal from './modal/DropSmartModal';
 import StateJson from './modal/StateJson.json';
 import SmartJson from './modal/SmartJson.json';
 import FreRadioButton from './FrgRadioButton';
-export default class ActivityPage extends Component {
-
+import BaseComponent from '../../../page/BaseComponent';
+export default class ActivityPage extends BaseComponent {
     constructor(props){
         super(props);
         /**第二部**/
@@ -65,8 +65,6 @@ export default class ActivityPage extends Component {
             smartName:'智能筛选',
             smartCode:'',
             selectInt:'',
-
-
         };
         this.dataSource =new ListView.DataSource({rowHasChanged:(r1,r2)=> r1!==r2});
         type_int=this.props.target;
